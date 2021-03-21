@@ -5,7 +5,7 @@
   </div>
   <Students :students="students" />
   <div class="footer">
-    <a href="https://github.com/BYU-CS-260-Winter-2021/lab-2-weather-app-Snicker7.git">Github</a>
+    <a href="https://github.com/Snicker7/cp3">Github</a>
   </div>
 </div>
 </template>
