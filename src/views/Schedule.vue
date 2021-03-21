@@ -1,11 +1,7 @@
 <template>
 <div>
   <div class="wrapper">
-    <div class="search">
-      <form class="pure-form">
-        <i class="fas fa-search"></i><input v-model="searchText" />
-      </form>
-    </div>
+    <h2>Today's Appointments:</h2>
   </div>
   <Students :students="students" />
   <div class="footer">
@@ -15,7 +11,7 @@
 </template>
 
 <script>
-import Students from "../components/Students.vue"
+import Students from "../components/StudentSchedule.vue"
 export default {
   name: 'Home',
   components: {
